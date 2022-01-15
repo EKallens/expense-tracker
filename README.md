@@ -1,4 +1,4 @@
-# :zero: :two: Expense Tracker 🔎
+# :zero: :two: Expense Tracker
 
 This project is a simple demo of an expense tracker made in React with TypeScript. 🚀
 Uses Context API and some hooks

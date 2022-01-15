@@ -1,11 +1,13 @@
 # :zero: :two: Expense Tracker 💰:dollar:
 
-This project is a simple demo of an expense tracker made in React with TypeScript. 🚀
-Uses Context API and some hooks
+This project is a simple application to track your expenses and was made in React with TypeScript 🚀
+
+- Context API.
+- useReducer, useContext, useState hooks.
+
+DEMO: https://expense-tracker-bkp.netlify.app
 
 ## Steps to run the project
-
-🚧 `This application is under construction yet`
 
 1. Clone this repo
 ```

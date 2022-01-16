@@ -3,7 +3,7 @@ import { DummyTransactions, ExpenseProviderProps, DummyTransactionsItem } from '
 import ExpenseReducer from './ExpenseReducer';
 import { v4 as uuidv4 } from 'uuid';
 
-const initialState: DummyTransactions = {
+export const initialState: DummyTransactions = {
 	dummyTransactions: [
 		{ id: '1', text: 'Flower', amount: -20 },
   		{ id: '2', text: 'Salary', amount: 300 },
@@ -19,7 +19,7 @@ export const ExpenseContext = createContext(initialState);
 export const ExpenseProvider = ({ children }: ExpenseProviderProps) => {
 	const [state, dispatch] = useReducer(ExpenseReducer, initialState);
 	
-	const deleteTransaction = (id:number) => {
+	const deleteTransaction = (id:string) => {
 		dispatch({
 			type: 'DELETE_TRANSACTION',
 			payload: id

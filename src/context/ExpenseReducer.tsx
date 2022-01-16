@@ -1,6 +1,7 @@
-import { DummyTransactionsItem } from '../types/GeneralTypes';
+import { ActionsType, DummyTransactionsItem } from '../types/GeneralTypes';
+import { initialState } from './ExpenseContext';
 
-export default (state:any, action:any) => {
+export default (state:any, action:ActionsType) => {
 	switch(action.type){
 		case 'DELETE_TRANSACTION': return {
 			...state,

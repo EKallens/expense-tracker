@@ -20,3 +20,7 @@ export type DummyTransactionsItem = {
 export type ExpenseProviderProps = {
     children: React.ReactNode;
 };
+
+export type ActionsType = 
+	| { type: 'DELETE_TRANSACTION', payload: string }
+	| { type: 'ADD_TRANSACTION', payload: ExpenseType }

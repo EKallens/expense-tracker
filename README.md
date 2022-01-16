@@ -1,6 +1,6 @@
 # :zero: :two: Expense Tracker 💰:dollar:
 
-This project is a simple application to track your expenses and was made in React with TypeScript 🚀
+This project is a simple application to track your expenses and was made in React with ![alt TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white "TypeScript") 🚀
 
 - Context API.
 - useReducer, useContext, useState hooks.
